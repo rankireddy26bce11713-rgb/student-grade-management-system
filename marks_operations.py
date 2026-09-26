@@ -30,7 +30,7 @@ def calculate_grade(average):
 
 # Simple if-elif-else ladder, same idea as Unit 3 conditionals.
     if average >= 90:
-       grade = "A+"
+       grade = "S"
     elif average >= 80:
        grade = "A"
     elif average >= 70:
