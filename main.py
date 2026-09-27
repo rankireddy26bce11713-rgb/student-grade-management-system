@@ -23,7 +23,7 @@ while running:
     elif choice == "5":
         delete_student()
     elif choice == "6":
-        print("Exiting the program. Goodbye!")
+        print("Exiting the program.")
         running = False
     else:
         print("Invalid choice. Please enter a number from 1 to 6.\n")
