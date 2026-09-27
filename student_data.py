@@ -1,20 +1,19 @@
 # student_data.py
-# Handles the main student dictionary and basic add/delete operations.
+# stores student details.
 
-# One dictionary holds every student.
-# Roll number (a string) is the key.
-# The value is another dictionary: {"name": ..., "marks": [list of numbers]}
+# Roll number is used as the key.
+# name and marks are stored for each student.
 students = {}
 
 
 def add_student():
     roll = input("Enter roll number: ")
     if roll in students:
-        print("A student with this roll number already exists.\n")
+        print("roll number already exists.\n")
         return
     name = input("Enter student name: ")
     students[roll] = {"name": name, "marks": []}
-    print("Student added successfully.\n")
+    print("Student added.\n")
 
 
 def delete_student():
