@@ -18,7 +18,7 @@ This project is a modular, command-line-based Python application designed to man
 
 ## Steps to Install & Run the Project
 1. Ensure Python 3 is installed on your system.
-2. Download or clone the repository containing all project files (`main.py`, `student_data.py`, `display.py`, `marks_operations.py`, `menu.py`) into a single directory.
+2. Download or clone the repository containing all project files (`student_data.py`, `mark_operations.py`, `display.py`, `menu.py`, `main.py`) into a single directory.
 3. Open a terminal or command prompt and navigate to the project directory.
 4. Run the application using the following command: 
    ```bash
