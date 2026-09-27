@@ -1,5 +1,5 @@
 #marks_operations.py
-# Handles adding marks and calculating averages/grades.
+# functions for marks and grades.
 
 from student_data import students
 
@@ -10,14 +10,14 @@ def add_marks():
         return
     mark = int(input("Enter marks (0-100): "))
     if mark < 0 or mark > 100:
-        print("Marks must be between 0 and 100.\n")
+        print("invalid marks.\n")
         return
     students[roll]["marks"].append(mark)
     print("Marks added.\n")
 
 
 def calculate_average(marks_list):
-    # Basic average: sum divided by count.
+    # calculate average.
     if len(marks_list) == 0:
         return 0
     total = 0
@@ -28,7 +28,7 @@ def calculate_average(marks_list):
 
 def calculate_grade(average):
 
-# Simple if-elif-else ladder, same idea as Unit 3 conditionals.
+# Simple if-elif-else ladder.
     if average >= 90:
        grade = "S"
     elif average >= 80:
