@@ -1,5 +1,5 @@
 # display.py
-# Handles showing student records on screen.
+# show student details.
 
 from student_data import students
 from marks_operations import calculate_average, calculate_grade
@@ -8,7 +8,7 @@ from marks_operations import calculate_average, calculate_grade
 def view_student():
     roll = input("Enter roll number: ")
     if roll not in students:
-        print("No student found with that roll number.\n")
+        print("roll number not found.\n")
         return
     info = students[roll]
     marks = info["marks"]
@@ -24,7 +24,7 @@ def view_student():
 
 def view_all_students():
     if len(students) == 0:
-        print("No students added yet.\n")
+        print("No students found.\n")
         return
     print("\nRoll No | Name | Average | Grade")
     print("-" * 35)
