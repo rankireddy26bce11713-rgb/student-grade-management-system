@@ -1,7 +1,7 @@
 #menu.py
 
 
-# Handles printing the menu options.
+# show menu.
 
 def show_menu():
     print("===== STUDENT GRADE MANAGEMENT SYSTEM =====")
