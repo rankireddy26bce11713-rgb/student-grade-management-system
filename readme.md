@@ -17,9 +17,9 @@ This project is a modular, command-line-based Python application designed to man
 *   **Architecture:** Modular design splitting logic across 5 distinct `.py` files.
 
 ## Steps to Install & Run the Project
-1. Ensure Python 3 is installed on your system.
-2. Download or clone the repository containing all project files (`student_data.py`, `mark_operations.py`, `display.py`, `menu.py`, `main.py`) into a single directory.
-3. Open a terminal or command prompt and navigate to the project directory.
+1. Make sure you have python 3 installed on your machine.
+2. Download or clone the repository containing all project files (`student_data.py`, `mark_operations.py`, `display.py`, `menu.py`, `main.py`) in the same folder.
+3. Open a terminal or launch your command prompt or terminal and cd into that project folder.
 4. Run the application using the following command: 
    ```bash
    python main.py
