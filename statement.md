@@ -1,19 +1,19 @@
 # Project Statement: Student Grade Management System
 
 ## Problem Statement
-Educators and school administrators frequently need a centralized, lightweight tool to process student scores and calculate academic grades. Manual calculation is prone to errors, and complex spreadsheet software can be unnecessarily bloated for simple administrative tasks. This project provides an automated, terminal-based solution to track students, validate inputted scores, and compute grades instantly, reducing administrative overhead and increasing accuracy.
+teachers and school administrators need a straight forward way to record student scores and calculate final grades without relying to tedious manual calculations or overly complicated spreadsheets. this project offers a simple, command-line tool that lets users track students, double check score entries, and generate grades automatically-saving time and reducing errors.
 
 ## Scope of the Project
-The scope of this project is limited to a local, text-based Python application executing CRUD (Create, Read, Update, Delete) operations in memory. It manages core student identifiers (roll number and name) alongside a dynamic list of numerical marks. The system utilizes modular logic to generate immediate averages and assign letter grades upon user request. Data persistence (saving to a file or database) is outside the current scope, meaning data is reset upon exiting the application.
+This project is a lightweight, offline python application that manages student data in memory using standard CRUD(Create, Read, Update, Delete) features. It tracks basic student details-such as roll numbers and names-along with their numerical marks. The program uses clear,  modular code to calculate averages and assign letter grades on demand. Because data persistence (like saving to a database or text file) is out of scope for this version, all stored information resets once the program closes.
 
-## Target Users
-* **Teachers** managing day-to-day class records and needing quick calculations.
-* **School Administrative Staff** processing student onboarding and grading.
-* **Teaching Assistants** requiring a fast, reliable tool to compute averages for assignments or quizzes.
+## Target Audience
+* **Teachers** Looking for a quick way to handle daily class records and grade calculations.
+* **School Administrative Staff** Handling student enrolment and managing overall grade entries.
+* **Teaching Assistants** Needing a simple tool to calculate assignment and quiz averages quickly.
 
-## High-Level Features
-* **Secure Student Registration:** Prevents duplicate student entries by enforcing unique roll numbers.
-* **Automated Data Processing:** Calculates cumulative averages dynamically from an array of inputted marks.
-* **Conditional Grading System:** Translates numerical averages into standard letter grades (A+ through F) using a predefined logical ladder.
-* **Modular Architecture:** Separates data storage, user interface, and calculation logic across five specific Python modules for clean, maintainable code.
-* **Input Validation:** Ensures data integrity by rejecting out-of-bound marks (e.g., negative numbers or values over 100) and handling invalid user inputs gracefully.
+## key Features
+* **Secure Student Registration:** Checks roll numbers upon registration to make sure no two students have the same ID
+* **Automated Data Processing:** Compute overall student averages on the fly as marks are entered.
+* **letter Grading System:** maps final score averages to standard letter grades (S to F) using clear grading thresholds.
+* **Organized Code Base:** Split cleanly across five distinct python scrips to separate the user interface, storage, and calculation logic.
+* **Input Validation:** Blocks invalid entries-like negative numbers or scores over 100-and handles unexpected user errors smoothly.
